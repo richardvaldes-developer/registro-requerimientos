@@ -43,6 +43,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.version = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -205,6 +206,17 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Contactame";
             // 
+            // version
+            // 
+            this.version.AutoSize = true;
+            this.version.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.version.Location = new System.Drawing.Point(566, 220);
+            this.version.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.version.Name = "version";
+            this.version.Size = new System.Drawing.Size(42, 16);
+            this.version.TabIndex = 10;
+            this.version.Text = "V1.0.1";
+            // 
             // Validacion
             // 
             this.AcceptButton = this.btnIngresar;
@@ -214,6 +226,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CancelButton = this.btnSalir;
             this.ClientSize = new System.Drawing.Size(621, 245);
+            this.Controls.Add(this.version);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.label1);
@@ -256,6 +269,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label version;
     }
 }
 
