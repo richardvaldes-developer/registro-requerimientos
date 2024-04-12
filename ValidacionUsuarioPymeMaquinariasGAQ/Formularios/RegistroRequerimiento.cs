@@ -66,7 +66,7 @@ namespace Principal
 
             //combo box tipo requerimiento
             List<Negocio> a = new List<Negocio>();
-            a.Add(new Negocio() { v1 = "base de datos", t1 = "base de datos" });
+            a.Add(new Negocio() { v1 = "Base de Datos", t1 = "Base de Datos" });
             a.Add(new Negocio() { v1 = "Sistemas", t1 = "Sistemas" });
             a.Add(new Negocio() { v1 = "Servidores", t1 = "Servidores" });
             CbTipoRequerimiento.DataSource = a;
@@ -126,7 +126,7 @@ namespace Principal
                         ClsNegocio.InsertarReq(Convert.ToString(CbTipoRequerimiento.SelectedValue),Convert.ToString
                             ( CbUsuarioAsignado.SelectedValue),TbDescripcionRequerimiento.Text,Convert.ToString( CbPrioridad.SelectedValue),Variable1);
 
-                        MessageBox.Show("El requerimiento fue ingresado,el plazo para resolverlo es de  " +Variable1 +" dias"); 
+                        MessageBox.Show("El requerimiento fue ingresado, el plazo para resolverlo es de  " +Variable1 +" dias"); 
                     }
                     catch (Exception ex)
                     {

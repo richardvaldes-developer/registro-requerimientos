@@ -69,7 +69,7 @@
             // CbPrioridad
             // 
             this.CbPrioridad.FormattingEnabled = true;
-            this.CbPrioridad.Location = new System.Drawing.Point(134, 336);
+            this.CbPrioridad.Location = new System.Drawing.Point(133, 332);
             this.CbPrioridad.Margin = new System.Windows.Forms.Padding(2);
             this.CbPrioridad.Name = "CbPrioridad";
             this.CbPrioridad.Size = new System.Drawing.Size(200, 21);
@@ -78,7 +78,7 @@
             // CbUsuarioAsignado
             // 
             this.CbUsuarioAsignado.FormattingEnabled = true;
-            this.CbUsuarioAsignado.Location = new System.Drawing.Point(148, 140);
+            this.CbUsuarioAsignado.Location = new System.Drawing.Point(148, 138);
             this.CbUsuarioAsignado.Margin = new System.Windows.Forms.Padding(2);
             this.CbUsuarioAsignado.Name = "CbUsuarioAsignado";
             this.CbUsuarioAsignado.Size = new System.Drawing.Size(200, 21);
@@ -88,7 +88,7 @@
             // CbTipoRequerimiento
             // 
             this.CbTipoRequerimiento.FormattingEnabled = true;
-            this.CbTipoRequerimiento.Location = new System.Drawing.Point(148, 86);
+            this.CbTipoRequerimiento.Location = new System.Drawing.Point(148, 81);
             this.CbTipoRequerimiento.Margin = new System.Windows.Forms.Padding(2);
             this.CbTipoRequerimiento.Name = "CbTipoRequerimiento";
             this.CbTipoRequerimiento.Size = new System.Drawing.Size(200, 21);
@@ -111,7 +111,7 @@
             this.TbDescripcionRequerimiento.Location = new System.Drawing.Point(25, 227);
             this.TbDescripcionRequerimiento.Margin = new System.Windows.Forms.Padding(2);
             this.TbDescripcionRequerimiento.Name = "TbDescripcionRequerimiento";
-            this.TbDescripcionRequerimiento.Size = new System.Drawing.Size(357, 101);
+            this.TbDescripcionRequerimiento.Size = new System.Drawing.Size(530, 94);
             this.TbDescripcionRequerimiento.TabIndex = 27;
             this.TbDescripcionRequerimiento.Text = "";
             // 
@@ -119,7 +119,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(22, 343);
+            this.label6.Location = new System.Drawing.Point(22, 335);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
@@ -163,7 +163,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 146);
+            this.label2.Location = new System.Drawing.Point(22, 138);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 13);
@@ -174,7 +174,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 89);
+            this.label1.Location = new System.Drawing.Point(22, 81);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 13);
@@ -226,6 +226,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button1);
             this.Name = "Formulario2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro Requerimiento";
             this.Load += new System.EventHandler(this.FormMainMenu_Load);
             this.ResumeLayout(false);

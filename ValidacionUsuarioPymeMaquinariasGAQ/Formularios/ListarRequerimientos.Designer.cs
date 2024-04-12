@@ -47,7 +47,7 @@
             // 
             this.ButtonBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonBuscar.Location = new System.Drawing.Point(389, 97);
-            this.ButtonBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonBuscar.Name = "ButtonBuscar";
             this.ButtonBuscar.Size = new System.Drawing.Size(100, 33);
             this.ButtonBuscar.TabIndex = 23;
@@ -59,7 +59,7 @@
             // 
             this.comboBoxPrioridad.FormattingEnabled = true;
             this.comboBoxPrioridad.Location = new System.Drawing.Point(163, 59);
-            this.comboBoxPrioridad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxPrioridad.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxPrioridad.Name = "comboBoxPrioridad";
             this.comboBoxPrioridad.Size = new System.Drawing.Size(210, 21);
             this.comboBoxPrioridad.TabIndex = 22;
@@ -68,7 +68,7 @@
             // 
             this.comboBoxTipoRequerimiento.FormattingEnabled = true;
             this.comboBoxTipoRequerimiento.Location = new System.Drawing.Point(163, 24);
-            this.comboBoxTipoRequerimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxTipoRequerimiento.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxTipoRequerimiento.Name = "comboBoxTipoRequerimiento";
             this.comboBoxTipoRequerimiento.Size = new System.Drawing.Size(210, 21);
             this.comboBoxTipoRequerimiento.TabIndex = 21;
@@ -121,7 +121,7 @@
             // 
             this.checkResuelto.AutoSize = true;
             this.checkResuelto.Location = new System.Drawing.Point(294, 99);
-            this.checkResuelto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkResuelto.Margin = new System.Windows.Forms.Padding(2);
             this.checkResuelto.Name = "checkResuelto";
             this.checkResuelto.Size = new System.Drawing.Size(15, 14);
             this.checkResuelto.TabIndex = 16;
@@ -131,7 +131,7 @@
             // 
             this.checkPendiente.AutoSize = true;
             this.checkPendiente.Location = new System.Drawing.Point(163, 98);
-            this.checkPendiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkPendiente.Margin = new System.Windows.Forms.Padding(2);
             this.checkPendiente.Name = "checkPendiente";
             this.checkPendiente.Size = new System.Drawing.Size(15, 14);
             this.checkPendiente.TabIndex = 15;
@@ -141,7 +141,7 @@
             // 
             this.buttonMarcarResuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMarcarResuelto.Location = new System.Drawing.Point(69, 308);
-            this.buttonMarcarResuelto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonMarcarResuelto.Margin = new System.Windows.Forms.Padding(2);
             this.buttonMarcarResuelto.Name = "buttonMarcarResuelto";
             this.buttonMarcarResuelto.Size = new System.Drawing.Size(181, 33);
             this.buttonMarcarResuelto.TabIndex = 14;
@@ -153,7 +153,7 @@
             // 
             this.buttonEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEliminar.Location = new System.Drawing.Point(311, 308);
-            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(204, 33);
             this.buttonEliminar.TabIndex = 13;
@@ -163,13 +163,15 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(40, 143);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(475, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(548, 150);
             this.dataGridView1.TabIndex = 24;
             // 
             // ListarRequerimientos
@@ -189,8 +191,9 @@
             this.Controls.Add(this.checkPendiente);
             this.Controls.Add(this.buttonMarcarResuelto);
             this.Controls.Add(this.buttonEliminar);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ListarRequerimientos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListarRequerimientos";
             this.Load += new System.EventHandler(this.ListarRequerimientos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

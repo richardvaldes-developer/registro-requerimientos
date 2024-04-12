@@ -14,6 +14,7 @@ using System.Windows.Forms;
 using CapaNegocio;
 using CapaEntidad;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Security.Policy;
 
 namespace Principal
 {
@@ -91,5 +92,25 @@ namespace Principal
 
         }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        //Links para contacto
+        private void LinkGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("https://github.com/richardvaldes-developer/registro-requerimientos"));
+        }
+
+        private void linkLinkeIn_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("www.linkedin.com/in/richard-valdes-77116225b"));
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
