@@ -2,6 +2,7 @@
 
 namespace CapaNegocio
 {
+    asdf
     public class Negocio
 
         esto es un commit devrichard
