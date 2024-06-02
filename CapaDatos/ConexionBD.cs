@@ -14,7 +14,7 @@ namespace CapaDatos
         private SqlConnection conexion = new SqlConnection();
         public  ConnectionToSql()
         {
-            connectionString = @"Data Source =DESKTOP-JSOUI5C;Database = ProyectoENE;User Id=Richard;Password=1234";
+            connectionString = @"Data Source =DESKTOP-JSOUI5C;Database = ProyectoENE;Trusted_Connection= True";
         }
 
         public SqlConnection abrirConexion()

@@ -2,10 +2,9 @@
 
 namespace CapaNegocio
 {
-    asdf
     public class Negocio
 
-        esto es un commit devrichard
+   
     {
         private CapaDeDatos Obj = new CapaDeDatos();
         public string v1 { get; set; }

@@ -10,7 +10,7 @@ namespace Principal
     public partial class ListarRequerimientos : Form
     {
         Negocio ClsNegocio = new Negocio();
-        static private string connectionString = "Data Source =DESKTOP-JSOUI5C;Database = ProyectoENE;User Id=Richard;Password=1234";
+        static private string connectionString = "Data Source =DESKTOP-JSOUI5C;Database = ProyectoENE;Trusted_Connection= true";
         private SqlConnection conexion = new SqlConnection(connectionString);
         private bool mostrar = false;
 
